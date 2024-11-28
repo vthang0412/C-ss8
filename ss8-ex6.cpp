@@ -8,7 +8,7 @@ int main() {
 	    printf("Nhap cac phan tu cua ma tran:\n");
 	    for (int i = 0; i < n; i++) {
 	        for (int j = 0; j < n; j++) {
-	            printf("Nh?p ph?n t? a[%d][%d]: ", i, j);
+	            printf("Nhap phan tu a[%d][%d]: ", i, j);
 	            scanf("%d", &a[i][j]);
 	        }
 	    }
@@ -21,4 +21,3 @@ int main() {
     printf("\nTong cac phan tu tren duong cheo: %d\n", sum);
     return 0;
 }
-
